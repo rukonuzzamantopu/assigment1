@@ -484,3 +484,95 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     background-color: transparent;
 }
+/* Support Section */
+
+.support-section {
+    position: relative;
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: url('handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.support-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px; 
+    z-index: -2;
+}
+
+.support-section > .support-section-container {
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.support-section-container > .support-section-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-section-container > .description {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.support-section-container > .support-section-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.support-section-button-container > input {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left:20px;
+    border-radius: 8px;
+    width: 548px;
+    border: none;
+}
+
+.support-section-button-container > button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
