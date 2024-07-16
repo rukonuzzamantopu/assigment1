@@ -215,6 +215,9 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+.section-item-3 > .text-item {
+    margin-left: 32px;
+} */
 /* Inspiration Section */
 .inspiration-section {
     width: 1440px;
@@ -482,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .support-section-title .description {
     text-align: center;
-    color:black;
+    color:b;
 }
 
 .support-section-button-container {
