@@ -25,8 +25,9 @@ In this repository, you will find a basic webpage designed with:
 <img width="1881" height="849" alt="image" src="https://github.com/user-attachments/assets/2bb1213c-6dc6-455e-b8e2-2993bbf20ac7" />
 <img width="1886" height="868" alt="image" src="https://github.com/user-attachments/assets/d6d62e6d-7e01-4a6d-85ee-89c4537e3222" />
 ---
-## Getting Started
+## 📌 Getting Started
 
-1. Clone this repository to your local machine:
-   ```bash
+Clone the repository and open in your editor:
+
+```bash
 https://github.com/rukonuzzamantopu/assigment1
