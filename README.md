@@ -16,7 +16,7 @@ In this repository, you will find a basic webpage designed with:
 ---
 
   ## 🚀 Live Demo
-🔗 [View Live Project] https://rukonuzzamantopu.github.io/assigment1/
+🔗 [View Live Project]( https://rukonuzzamantopu.github.io/assigment1/)
 
 ---
 ## 📷 Screenshots
@@ -29,4 +29,4 @@ In this repository, you will find a basic webpage designed with:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+https://github.com/rukonuzzamantopu/assigment1
